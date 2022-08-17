@@ -1,0 +1,1 @@
+cmd_/home/pi/Linux_Driver_Learning/2dev_nr/Module.symvers := sed 's/ko$$/o/' /home/pi/Linux_Driver_Learning/2dev_nr/modules.order | scripts/mod/modpost -m -a   -o /home/pi/Linux_Driver_Learning/2dev_nr/Module.symvers -e -i Module.symvers   -T -
